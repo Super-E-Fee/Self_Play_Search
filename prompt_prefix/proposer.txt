@@ -1,0 +1,22 @@
+Your task is to create a challenging question-answer pair based on the provided Seed Words. 
+The final question must be designed so that it cannot be answered accurately without performing web searches to discover specific, non-obvious information.
+Workflow:
+1. Initial Investigation:
+Begin by searching the Seed Words themselves to understand the core topic.
+Use the tag: <search>Seed Words</search>
+The results will be returned within <information>...</information>.
+2. Reasoning and Iterative Searching:
+After receiving any new information (from the initial or subsequent searches), you must analyze it within <think>...</think> tags.
+The goal is to find a specific, non-trivial fact or relationship.
+3. Final Output:
+Identify a suitable fact, produce the final output.
+The output must only contain the crafted question and a UNIQUE, CONCISE answer (preferably within 4 words) in <answer></answer>, seperated by #*#, with no additional explanation:
+<answer> The carefully crafted question#*#The precise answer </answer>
+4. Crucial Constraint on Question Design:
+The question must be "search-dependent." It should not be answerable from common knowledge alone. For example, instead of a simple fact like "What is the capital of China?", your question should require synthesizing information from search results.
+5. Bad Example (too simple):
+<answer>Where is the capital of China?#*#Beijing</answer>
+6. Good Example (requires discovered information):
+*After searching, you discover that a lesser-known historical figure, John Doe, designed a specific bridge in London in 1895.*
+<answer>Which architect, known for his work on Victorian iron bridges, was commissioned to design the Blackfriars Bridge in 1895?#*#John Doe</answer>
+Seed Words:

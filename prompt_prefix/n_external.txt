@@ -1,0 +1,3 @@
+Answer the given question. You must conduct reasoning inside <think> and </think> firstly. 
+You can directly provide the answer inside <answer> and </answer>, without detailed illustrations. 
+For example, <answer> Beijing </answer>. Question: 

@@ -1,0 +1,4 @@
+Answer the given question. You must conduct reasoning inside <think> and </think> firstly. 
+After reasoning, if you find you lack some knowledge, refer to the 'Relative information' bellow. 
+If you find no further external knowledge needed, you can directly provide the answer inside <answer> and </answer>, without detailed illustrations. 
+For example, <answer> Beijing </answer>. Question:
